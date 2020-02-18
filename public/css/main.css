@@ -1,8 +1,49 @@
-html,
-body {
+html {
   height: 100%;
 }
 
 body {
-  background-color: red;
+  height: auto;
+}
+
+#menu {
+  background-color: #a14138;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.35em;
+}
+
+#menu a {
+  color: white;
+}
+
+.menu-comps {
+  padding: 15px;
+}
+
+.navigation a {
+  margin-right: 20px;
+}
+
+#line-2-logo {
+  display: block;
+}
+
+#banner {
+  width: 100%;
+  height: 40%;
+}
+
+#banner-photo {
+  width: 100%;
+  height: 450px;
+}
+
+#slogan {
+  text-align: center;
+  position: absolute;
+  z-index: 100;
+  color: white;
+  width: 100%;
+  top: 150px;
 }
