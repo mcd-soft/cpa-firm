@@ -4,6 +4,7 @@ html {
 
 body {
   height: auto;
+  background-color: rgb(245, 245, 245);
 }
 
 #menu {
@@ -46,4 +47,29 @@ body {
   color: white;
   width: 100%;
   top: 150px;
+}
+
+#snapshot {
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.snapshot-content {
+  text-align: center;
+}
+
+.snapshot-content p {
+  font-size: 1.3em;
+}
+
+i.snapshot-icon {
+  font-size: 4em;
+  padding: 15px;
+  background-color: #a14138;
+  color: white;
+}
+
+.white-background {
+  background-color: white;
 }
