@@ -11,7 +11,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json({ extended: false }));
 
 app.get('/', (req, res, next) => {
-  res.render('home', { name: 'Dustin' });
+  res.render('home');
+});
+
+app.get('/about', (req, res, next) => {
+  res.render('about');
 });
 
 const PORT = process.env.PORT || 3000;
