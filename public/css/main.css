@@ -12,6 +12,9 @@ body {
   display: flex;
   justify-content: space-between;
   font-size: 1.35em;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
 }
 
 #menu a {
@@ -30,12 +33,12 @@ body {
   display: block;
 }
 
-#banner {
+.banner {
   width: 100%;
   height: 40%;
 }
 
-#banner-photo {
+.banner-photo {
   width: 100%;
   height: 450px;
 }
@@ -49,10 +52,11 @@ body {
   top: 150px;
 }
 
-#snapshot {
+.snapshot {
   margin-top: 30px;
   border-radius: 10px;
   padding: 10px;
+  text-align: center;
 }
 
 .snapshot-content {
@@ -68,6 +72,41 @@ i.snapshot-icon {
   padding: 15px;
   background-color: #a14138;
   color: white;
+}
+
+.home-text {
+  font-size: 2em;
+}
+
+#awards {
+  background-color: #3266ba;
+  margin: 18px 0;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#awards p {
+  color: white;
+  font-size: 1.5em;
+}
+
+.contact-home {
+  font-size: 1.5em;
+}
+
+footer {
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  z-index: 2000;
+  margin-top: 30px;
+}
+
+footer a {
+  color: white;
+  margin-left: 20px;
+  padding: 15px;
 }
 
 .white-background {
