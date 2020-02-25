@@ -7,6 +7,10 @@ body {
   background-color: rgb(245, 245, 245);
 }
 
+/*
+  Menu
+*/
+
 #menu {
   background-color: #a14138;
   display: flex;
@@ -18,7 +22,7 @@ body {
 }
 
 #menu a {
-  color: white;
+  color: rgb(190, 190, 190);
 }
 
 .menu-comps {
@@ -33,15 +37,9 @@ body {
   display: block;
 }
 
-.banner {
-  width: 100%;
-  height: 40%;
-}
-
-.banner-photo {
-  width: 100%;
-  height: 450px;
-}
+/*
+  Home page
+*/
 
 #slogan {
   text-align: center;
@@ -94,6 +92,27 @@ i.snapshot-icon {
   font-size: 1.5em;
 }
 
+/*
+  About page
+*/
+
+#about-summary {
+  margin: 50px 0 150px 0;
+}
+
+i.about-icon {
+  font-size: 4em;
+  color: #a14138;
+}
+
+#approach {
+  margin-top: 150px;
+}
+
+/*
+  Footer
+*/
+
 footer {
   background-color: black;
   position: absolute;
@@ -109,6 +128,37 @@ footer a {
   padding: 15px;
 }
 
+/*
+multi-use classes
+*/
+
+.banner {
+  width: 100%;
+  height: 40%;
+}
+
+#home-banner img.banner-photo,
+#about-banner img.banner-photo {
+  width: 100%;
+  height: 450px;
+}
+
 .white-background {
   background-color: white;
+}
+
+.white-text {
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.big-font {
+  font-size: 3em;
+}
+
+.medium-font {
+  font-size: 2em;
 }
